@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: #A6E3E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 20px;
+
+}
+.menu {
+    width: 200px;
+    height: 100px;
+    margin: 8px;
+    background-image: linear-gradient(to right, #CBF1F5, #81F5FF);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.menu div {
+    width: 120px ;
+    height: 120px;
+    margin: 40px;
+    position: relative;
+}
+
+.menu span{
+
+    background: #fff;
+    width: 100px;
+    height: 10px;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    top:50px;
+    left: 50px;
+    transform: translate(-50%, -50%);
+}
